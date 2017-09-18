@@ -1,3 +1,7 @@
+## 0.10.4 (2017-09-18)
+
+* Add support for Leiningen 2.7 `:managed-dependencies`
+
 ## 0.10.3 (2017-02-07)
 
 * Add support for wikilinks `[[page|text]]` format
