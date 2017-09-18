@@ -1,4 +1,5 @@
 language: clojure
+before_install: cd lein-codox
 deploy:
   skip_cleanup: true
   provider: script
