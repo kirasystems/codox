@@ -12,7 +12,7 @@ Include the following plugin in your `project.clj` file or your global
 profile:
 
 ```clojure
-:plugins [[lein-codox "0.10.3"]]
+:plugins [[kirasystems/lein-codox "0.10.4"]]
 ```
 
 Then run:
