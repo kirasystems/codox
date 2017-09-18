@@ -1,4 +1,4 @@
-(defproject kirasystems/lein-codox "0.10.3"
+(defproject kirasystems/lein-codox "0.10.4"
   :description "Codox Leiningen plugin"
   :url "https://github.com/kirasystems/codox"
   :scm {:dir ".."}
