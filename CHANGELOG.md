@@ -1,5 +1,17 @@
-## 0.10.4 (2017-09-18)
+## 0.10.6 (2019-02-12)
 
+* Fix error when running under Leiningen 2.9.0 (#181)
+
+## 0.10.5 (2018-10-04)
+
+* Respect `:no-doc` metadata in CLojureScript (#177)
+* Recognize multimethods in ClojureScript (#178)
+
+## 0.10.4 (2018-06-14)
+
+* Add `{git-commit}` variable to source URI (#170)
+* Add `:exception-handler` option to `generate-docs` (#175)
+* Fix namespace doc links (#172)
 * Add support for Leiningen 2.7 `:managed-dependencies`
 
 ## 0.10.3 (2017-02-07)

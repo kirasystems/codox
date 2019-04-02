@@ -12,7 +12,7 @@ Include the following plugin in your `project.clj` file or your global
 profile:
 
 ```clojure
-:plugins [[kirasystems/lein-codox "0.10.4"]]
+:plugins [[kirasystems/lein-codox "0.10.6"]]
 ```
 
 Then run:
@@ -28,7 +28,7 @@ This will generate API documentation in the "target/doc" subdirectory
 
 Add boot-codox to your build.boot dependencies and require the namespace:
 ```
-(set-env! :dependencies '[[boot-codox "0.10.3" :scope "test"]])
+(set-env! :dependencies '[[boot-codox "0.10.6" :scope "test"]])
 (require '[codox.boot :refer [codox]])
 ```
 
@@ -211,11 +211,12 @@ to the function's source file in the documentation, you can set the
 
 The URI is a template that may contain the following keys:
 
-* `{filepath}`  - the file path from the root of the repository
-* `{basename}`  - the basename of the file
-* `{classpath}` - the relative path of the file within the source directory
-* `{line}`      - the line number of the source file
-* `{version}`   - the version of the project
+* `{filepath}`   - the file path from the root of the repository
+* `{basename}`   - the basename of the file
+* `{classpath}`  - the relative path of the file within the source directory
+* `{line}`       - the line number of the source file
+* `{version}`    - the version of the project
+* `{git-commit}` - the Git commit id of the repository
 
 You can also assign different URI templates to different paths of your
 source tree. This is particularly useful for created source links from
@@ -433,7 +434,7 @@ code evaluator.
 
 ## License
 
-Copyright © 2017 James Reeves
+Copyright © 2018 James Reeves
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
